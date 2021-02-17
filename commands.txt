@@ -72,3 +72,23 @@ cat commands.txt
 cat index.html 
 cd ../learning-git
 history -a commands.txt 
+cd -
+git status
+cp -a ../learning-git/commands.txt .
+git status
+git add .
+git status
+git commit -m "saved"commands"
+git status
+git log
+git commit -m "saved commands"
+git push origin master
+git push origin master
+git status
+git push origin master
+git log
+cd ../
+git clone https://github.com/eeroxas/cX0ogjET21fKUGFJgI02IVKY.git
+cd cX0ogjET21fKUGFJgI02IVKY/
+cat commands.txt 
+history -a commands.txt 
