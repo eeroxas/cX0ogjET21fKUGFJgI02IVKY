@@ -1,0 +1,74 @@
+git checkout master
+git branch
+git branch -d example 
+git branch
+git checkout -b newcategory
+git branch
+touch newcategory.php
+git checkout master
+git status
+touch newcategory.php
+cat newcategory.php 
+git checkout newcategory 
+git add .
+git status
+git commit -m "new categories added"
+git status
+git checkout master
+git checkout newcategory 
+git checkout master
+ls -la .git/
+git checkout newcategory 
+git log
+git checkout master
+git merge newcategory 
+git log
+git branch -d newcategory 
+git lof
+git log
+git branch
+history -a commands.txt
+git config
+git config --global
+git config --list
+history -a commands.txt 
+cd ../
+cp -a learning-git/ learning-git-$(date +%F-%H%M)
+cd -
+git clone https://github.com/eeroxas/gitcourse.git
+ls -alh
+cd gitcourse/
+ls -alh
+git statsu
+git status
+touch index.html
+git add .
+git commit -m "created new index.html file"
+cd../
+cd ../
+git status
+mv gitcourse/ ../
+ls -alh
+git status
+cd ../gitcourse/
+ls -al
+git status
+git status
+cd ../learning-git
+git status
+cd ../
+rm -rf gitcourse/
+git clone https://github.com/eeroxas/gitcourse.git
+cd gitcourse/
+touch index.html
+git commit -m "created new index.html file"
+git add .
+git commit -m "created new index.html file"
+git push origin master
+cat index.html 
+cat commands.txt
+git pull
+cat commands.txt
+cat index.html 
+cd ../learning-git
+history -a commands.txt 
